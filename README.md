@@ -33,7 +33,7 @@ Users should be able to:
 
 #### Desktop Light Mode - Homepage
 
-![Desktop Light Mode - Homepage](./countries/design/desktop-light-homepage.png)
+![Desktop Light Mode - Homepage](design/desktop-dark-detailpage.png)
 
 #### Desktop Dark Mode - Homepage
 
