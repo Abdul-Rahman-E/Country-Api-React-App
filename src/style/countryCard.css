@@ -1,0 +1,26 @@
+.card-light {
+  @apply bg-head_white w-[17rem] mx-auto mt-10 rounded-md overflow-hidden cursor-pointer hover:drop-shadow-md transition-all duration-200 ease-linear z-10 relative;
+}
+
+.card-dark {
+  @apply bg-head_dark text-head_white w-[17rem] mx-auto mt-10 rounded-md overflow-hidden cursor-pointer hover:shadow-dark hover:shadow-slate-900 transition-all duration-200 ease-linear z-10 relative;
+}
+.card-image {
+  @apply w-full h-[10rem];
+}
+
+.card-content {
+  @apply w-full flex flex-col justify-center items-start p-6 pb-10 space-y-2;
+}
+
+.card-title {
+  @apply text-detail_text font-extrabold;
+}
+
+.card-info {
+  @apply text-home_text font-light;
+}
+
+.card-label {
+  @apply text-home_text font-semibold;
+}

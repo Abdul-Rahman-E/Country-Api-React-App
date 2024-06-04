@@ -1,0 +1,19 @@
+.search-bar {
+  @apply mx-4 lg:mx-0 p-1 flex items-center my-6 lg:my-0 rounded-md drop-shadow-md text-home_text 2md:w-96 2md:mx-10;
+}
+
+.icon {
+  @apply p-2 text-2xl text-gray-400 mx-3;
+}
+
+.input {
+  @apply w-full p-2 outline-none focus:outline-none;
+}
+
+.dark {
+  @apply bg-head_dark text-head_white opacity-100;
+}
+
+.light {
+  @apply bg-white text-gray-800 opacity-85;
+}

@@ -1,0 +1,19 @@
+.header {
+  @apply w-screen h-[10vh] flex items-center justify-between px-2 py-1  drop-shadow-sm text-home_text 2md:text-detail_text lg:px-6;
+}
+
+.title {
+  @apply flex justify-center p-2 font-extrabold mx-1 2md:mx-10;
+}
+
+.button {
+  @apply flex items-center px-2 py-1 mx-1 space-x-2 2md:mx-10;
+}
+
+.light {
+  @apply bg-head_white;
+}
+
+.dark {
+  @apply bg-head_dark text-head_white;
+}
