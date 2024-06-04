@@ -33,35 +33,35 @@ Users should be able to:
 
 #### Desktop Light Mode - Homepage
 
-![Desktop Light Mode - Homepage](design/desktop-dark-detailpage.png)
+![Desktop Light Mode - Homepage](design/desktop-light-homepage.png)
 
 #### Desktop Dark Mode - Homepage
 
-![Desktop Dark Mode - Homepage](./countries/design/desktop-dark-homepage.png)
+![Desktop Dark Mode - Homepage](design/desktop-dark-homepage.png)
 
 #### Mobile Light Mode - Homepage
 
-![Mobile Light Mode - Homepage](./countries/design/mobile-light-homepage.png)
+![Mobile Light Mode - Homepage](design/mobile-light-homepage.png)
 
 #### Mobile Dark Mode - Homepage
 
-![Mobile Dark Mode - Homepage](./countries/design/mobile-dark-homepage.png)
+![Mobile Dark Mode - Homepage](design/mobile-dark-homepage.png)
 
 #### Desktop Light Mode - Detail Page
 
-![Desktop Light Mode - Detail Page](./countries/design/desktop-light-detailpage.png)
+![Desktop Light Mode - Detail Page](design/desktop-light-detailpage.png)
 
 #### Desktop Dark Mode - Detail Page
 
-![Desktop Dark Mode - Detail Page](./countries/design/desktop-dark-detailpage.png)
+![Desktop Dark Mode - Detail Page](design/desktop-dark-detailpage.png)
 
 #### Mobile Light Mode - Detail Page
 
-![Mobile Light Mode - Detail Page](./countries/design/mobile-light-detailpage.png)
+![Mobile Light Mode - Detail Page](design/mobile-light-detailpage.png)
 
 #### Mobile Dark Mode - Detail Page
 
-![Mobile Dark Mode - Detail Page](./countries/design/mobile-dark-detailpage.png)
+![Mobile Dark Mode - Detail Page](design/mobile-dark-detailpage.png)
 
 ### Links
 
