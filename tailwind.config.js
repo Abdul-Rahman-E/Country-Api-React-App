@@ -1,3 +1,5 @@
+import Shimmer from "./src/skeletons/Shimmer";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -16,6 +18,16 @@ export default {
       fontSize: {
         home_text: "14px",
         detail_text: "16px",
+      },
+      keyframes: {
+        flash: {
+          "0%": { transform: "translateX(-200%)" },
+          "50%": { transform: "translateX(-60%)" },
+          "100%": { transform: "translateX(150%)" },
+        },
+      },
+      animation: {
+        flash: "flash 2.5s linear infinite 3s",
       },
     },
     screens: {

@@ -7,11 +7,11 @@
 }
 
 .button {
-  @apply flex items-center px-2 py-1 mx-1 space-x-2 2md:mx-10;
+  @apply flex items-center px-2 py-1 mx-1 space-x-3 2md:mx-10 font-semibold;
 }
 
 .light {
-  @apply bg-head_white;
+  @apply bg-head_white text-body_dark;
 }
 
 .dark {

@@ -3,6 +3,7 @@ import SearchBar from "../components/SearchBar";
 import FilterBox from "../components/FilterBox";
 import SkeletonElement from "../skeletons/SkeletonElement";
 import CountryCard from "../components/CountryCard";
+import SkeletonPage from "../skeletons/SkeletonPage";
 
 const HomePage = ({ data, loading, error }) => {
   const [search, setSearch] = useState("");
@@ -56,8 +57,8 @@ const HomePage = ({ data, loading, error }) => {
         <SearchBar setSearch={handleSetSearch} />
         <FilterBox setRegion={handleSetRegion} />
       </div>
-      {loading && <SkeletonElement />}
-      <div className="2md:grid 2md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-y-8 xl:mx-2">
+      {loading && <SkeletonPage />}
+      <div className="2md:grid 2md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-y-8 xl:mx-2 py-10">
         {!loading &&
           filteredData.map((country) => (
             <CountryCard key={country.cca3} country={country} />

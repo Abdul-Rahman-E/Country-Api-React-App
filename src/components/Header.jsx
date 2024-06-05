@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IoMoonOutline } from "react-icons/io5";
+import { IoMoon } from "react-icons/io5";
 import "../style/header.css";
 import { Link } from "react-router-dom";
 import { useTheme } from "../context/ThemeContext";
@@ -16,7 +17,7 @@ const Header = () => {
         className="button"
         aria-label="Toggle Dark Mode"
       >
-        <IoMoonOutline />
+        {darkMode ? <IoMoon /> : <IoMoonOutline />}
         <span>Dark Mode</span>
       </button>
     </nav>
